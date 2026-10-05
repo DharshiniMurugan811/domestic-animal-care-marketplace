@@ -1,6 +1,8 @@
 # Domestic Animal Care & Marketplace
 
-A complete MERN-stack final-year CSE project for domestic animal information, animal care, marketplace, authentication, inventory, orders, WhatsApp inquiries, and an AI Animal Assistant.
+Website Live at : https://domestic-animal-care-marketplace.netlify.app/
+
+A complete MERN-stack project for domestic animal information, animal care, marketplace, authentication, inventory, orders, WhatsApp inquiries, and an AI Animal Assistant.
 
 ## Stack
 - Frontend: React + Vite + React Router + Axios
