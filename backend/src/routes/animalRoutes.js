@@ -1,0 +1,10 @@
+import { Router } from "express";
+import { listAnimals, getAnimal, createAnimal, updateAnimal, deleteAnimal } from "../controllers/animalController.js";
+import { protect, adminOnly } from "../middleware/auth.js";
+const r = Router();
+r.get("/", listAnimals);
+r.get("/:id", getAnimal);
+r.post("/", protect, adminOnly, createAnimal);
+r.put("/:id", protect, adminOnly, updateAnimal);
+r.delete("/:id", protect, adminOnly, deleteAnimal);
+export default r;
